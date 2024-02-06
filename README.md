@@ -22,4 +22,6 @@ Ce script permet d'assembler plusieurs fichiers geojson dans un fichier shapefil
 
 Le fichier contenant les geojson assemblés se trouve dans le dossier 'result' et se nomme 'geojson_assemble'
 
-Attention, le format du fichier étant du shapefile, les noms de champs de plus de 10 caractères sont réduits automatiquement.
+## Attention
+
+Le format du fichier étant du shapefile, les noms de champs de plus de 10 caractères sont réduits automatiquement.
