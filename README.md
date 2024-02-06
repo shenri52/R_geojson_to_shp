@@ -11,6 +11,7 @@ Ce script permet d'assembler plusieurs fichiers geojson dans un fichier shapefil
   * prog_geojson_to_shp.R --> script principal
   * librairie.R --> script contenant les librairies utiles au programme
   * geojson_to_shp.R --> script d'assemblage des geojson
+  * suppression_gitkeep --> script de suppression des .gitkeep
 
 ## Fonctionnement
 
