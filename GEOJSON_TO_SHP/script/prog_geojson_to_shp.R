@@ -19,7 +19,7 @@
 
 source("script/librairie.R")
 
-#################### Suppression des fichiers .gitkeep
+#################### Suppression des fichiers gitkeep
 
 source("script/suppression_gitkeep.R")
 

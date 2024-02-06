@@ -1,4 +1,4 @@
-#################### Suppression des fichiers .gitkeep
+#################### Suppression des fichiers gitkeep
 
 if(file.exists("data/gitkeep"))
   {file.remove("data/gitkeep")}
