@@ -5,7 +5,7 @@ Ce script permet d'assembler plusieurs fichiers geojson dans un fichier shapefil
 ## Descriptif du contenu
 
 * Racine : emplacement du projet R --> "GEOJSON_TO_SHP.Rproj"
-* Un dossier "data" pour le stockage des fichiers a assemblés
+* Un dossier "data" pour le stockage des fichiers à assembler
 * Un dossier "result" pour le stockage du résultat
 * Un dosssier script qui contient :
   * prog_geojson_to_shp.R --> script principal
