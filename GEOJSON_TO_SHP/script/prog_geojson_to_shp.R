@@ -19,6 +19,10 @@
 
 source("script/librairie.R")
 
+#################### Suppression des fichiers .gitkeep
+
+source("script/suppression_gitkeep.R")
+
 #################### Assemblage de plusieurs geojson en 1 shape
 
 source("script/geojson_to_shp.R")
