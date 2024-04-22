@@ -7,11 +7,8 @@ list_geojson <- list.files(path = "data/",
                 recursive = TRUE) %>%
                 as.data.frame()
 
-#Initialisation variable
-nb_geojson <- count(list_geojson)
-
 # Assmblage de geojson
-for (i in 1:nb_geojson$n)
+for (i in 1:nrow(list_geojson))
 {
   couche <- geojson_sf(list_geojson[i,1])
   
