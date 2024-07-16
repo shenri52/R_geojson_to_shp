@@ -14,14 +14,17 @@
 # champs de plus de 10 caractères sont réduits automatiquement.       #
 #######################################################################
 
+#################### Suppression des fichiers gitkeep
+
+source("script/suppression_gitkeep.R")
 
 #################### Chargement des librairies
 
 source("script/librairie.R")
 
-#################### Suppression des fichiers gitkeep
+#################### Nettoyage des dossiers
 
-source("script/suppression_gitkeep.R")
+source("script/nettoyage_dossier.R")
 
 #################### Assemblage de plusieurs geojson en 1 shape
 
